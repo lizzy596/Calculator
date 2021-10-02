@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #636b61;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 500px;
+  height: 750px;
+  background-color: #e3d7ff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.display {
+  width: 450px;
+  height: 150px;
+  margin-top: 25px;
+  background-color: #afa2ff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  color: white;
+  font-size: 6rem;
+}
+
+.controls {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+  background-color: #e3d7ff;
+}
+
+.controls button:hover {
+  border: 5px solid #800000;
+}
+
+.clear {
+  display: block;
+  padding: 10px;
+  height: 75px;
+  width: 150px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete {
+  display: block;
+  padding: 10px;
+  height: 75px;
+  width: 150px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-holder {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, auto);
+  margin-top: 40px;
+  width: 400px;
+  height: 400px;
+}
+
+.number {
+  background-color: #7a89c2;
+  border: solid 4px #636b61;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.operator {
+  background-color: #bca3ac;
+  border: solid 4px #636b61;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.equals {
+  background-color: crimson;
+  border: solid 4px #636b61;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.decimal {
+  background-color: #7a89c2;
+  border: solid 4px #636b61;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-holder button:hover {
+  border: solid 5px black;
+}
